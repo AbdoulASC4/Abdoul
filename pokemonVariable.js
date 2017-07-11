@@ -1,0 +1,11 @@
+var mudkipHP = 50;
+var mudkipNum = 258;
+var mudkipType = "Water";
+var mudkipBestMove = "Avalanche";
+var mudkipAttack = 70
+var mudkipDefense = 50
+var mudkipSpeed = 40
+var mudkipSPAttack = 50
+var mudkipSPDefence = 50
+var mudkipLastEvo = false;
+mudkipHP = mudkipHP - 50

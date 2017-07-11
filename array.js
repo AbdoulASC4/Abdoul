@@ -1,0 +1,1 @@
+varmyarray = [1,2,3,"hahaha",4,5,6,"hahaha",7,8,9,]
