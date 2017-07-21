@@ -1,31 +1,38 @@
-var x = 0;
-var y = 250;
-var xspeed = 9;
-var yspeed = 10;
-
 function setup() {
     createCanvas(1000, 1000);
     
 }
-    
+ 
+var x = 180;
+var y = 180;
+var xDirection = 5;  
+
 function draw(){
-//distance from center of the screen
-    background(0,191,255);
-      ellipse (x, y, 55, 55);
+
+background(30,144,255);
+ellipse(x,y,80,80)
+
+
+if(x>=1000-40){
+        xDirection = -xDirection;
+    }else if(x<=0+40){
+        y = y + 100
+        xDirection = -xDirection;
+    }
     
+    else if (x>=800){
+    x = 800
+ }
+ x+=xDirection;
 
-    //bouncing horizontally
-      x = x + xspeed;
-      
-     if (x > 1000 || x < 0)  {
-         xspeed = -xspeed;
-      }
+ellipse(x-100,y,80,80)
 
-    //bouncing veritcally
-      y = y + yspeed;
+if(x>=1000-40){
+        xDirection = -xDirection;
+    }else if(x<=0+40){
+        y = y + 100
+        xDirection = -xDirection;
+    }
+    x+=xDirection;
 
-    if (y > 800 || y < 0) {
-           yspeed = -yspeed;
-      }
-   
 }
