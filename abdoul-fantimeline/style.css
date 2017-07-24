@@ -1,0 +1,15 @@
+h1{
+    border: double 2px red;
+    background-color: lightcyan;
+    color: black;
+}
+
+#intro{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+body{
+    background-image: url("falloutboy.jpg");
+    color: whitesmoke
+}
