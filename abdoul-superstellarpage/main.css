@@ -1,0 +1,13 @@
+img{
+    margin: 10px 10px 10px 10px;
+    height: 80%;
+    width: 50%;
+}
+
+#new{
+    border: 5px solid royalblue;
+    width: 500px;
+    padding: 10px;
+    margin: 0; 
+    display: inline-block
+}
